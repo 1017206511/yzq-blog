@@ -30,7 +30,6 @@ before_install:
 # 安装依赖
 install:
   - npm install hexo-cli -g
-  - npm install hexo-generator-index --save
   - npm install
 
 # 部署的命令
