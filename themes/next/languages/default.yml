@@ -7,19 +7,19 @@ title:
   schedule: Schedule
 
 menu:
-  home: 主页
-  archives: 档案
-  categories: 类别
-  tags: 标签
-  about: 关于
-  search: 搜索
-  schedule: 日程
-  sitemap: 导航
+  home: Home
+  archives: Archives
+  categories: Categories
+  tags: Tags
+  about: About
+  search: Search
+  schedule: Schedule
+  sitemap: Sitemap
   commonweal: Commonweal 404
 
 sidebar:
-  overview: 概述
-  toc: 目录
+  overview: Overview
+  toc: Table of Contents
 
 post:
   posted: Posted on
