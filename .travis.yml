@@ -10,6 +10,10 @@ cache:
   directories:
     - node_modules
 
+env:
+  global:
+    -GH_REF: github.com/1017206511/yzq-blog.git
+    -secure: "b3Xb6cOUUjr2SfaYo3Ezmsb+YQcwrkcy6/l+4VEZ5N/t6dVPt+RyYr8h+VqQUXkGCWuye4OqLEYED/sPYRgeFG4ZfL6PQFm+iEeefXUvVIvHGzjPuUm7OvvAm9H/lBLDw7kfoesLKjMHQwLVXD9noiEzraaXZ8a8Dj5jBF6BIzp8hVAv+Em5FZ28VuEuXB9S4mB9wpxHFiuFCWeExO9Kc/ep50Zsi5fyrfrRrJD5F9ClOcCP9pPhEstwi6g+en2hCS2vN122rKx7AzlhE8YfUn1xKVAM3SWbMQE5WjL/bNfFmVG6HLnBdIvromXMgsOBqAR5zZrjHzMlN4J/FfV7AC9T1LMwGL7Adkur/Dpi1ngkosTN+t+WwHg43navifujgu1UOI32Tolb8hQDF4bqhIEcOskTjY5ssVUF/urE+RHkfHc8zwVGjD0/7gdBfprNWNG3/U7Ei+/1gekFYsVtW3ogwygG4f3vwg0iCTSM0smVp9lZR9wNRUyfhDivIaQxDXUb7YxBVm6Os74gJuQiWHlwZ+pDdOaMpMSEfXzlXMdxCJGNIZT5jzV+YzWC0no0r3WeIJn4GUmRgL648i+csVZv89E/V9QzccgB7z355MA8CS9heRvmmYB6BG+euD0S7SE139YpX+70SPBTVLG7X5uXiaCcvMmjs4HNVfcC0ZE="
 # 配置环境
 before_install:
   # 改变文件权限
