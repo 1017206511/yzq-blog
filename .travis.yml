@@ -26,8 +26,6 @@ before_install:
   - git config --global user.name 'weizhuang'
   - git config --global user.email 1017206511@qq.com
   - export YUQUE_TOKEN=bL8r66YIhTuKqraJE8lFLcVhMIBLNaapibgAyWCc
-  - eval `ssh-agent`
-  - ssh-add -k /home/travis/.ssh/id_rsa
 
 # 安装依赖
 install:
