@@ -18,6 +18,9 @@ env:
 before_install:
   # 配置 ssh
   - cp .travis/ssh_config ~/.ssh/config
+  - cp .travis/id_rsa.pub ~/.ssh/id_rsa.pub
+ # 改变文件权限
+  - chmod 600 ~/.ssh/id_rsa
   # 配置 git 替换为自己的信息
   - git config --global user.name 'weizhuang'
   - git config --global user.email 1017206511@qq.com
