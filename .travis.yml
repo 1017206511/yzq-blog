@@ -10,6 +10,9 @@ cache:
   directories:
     - node_modules
 
+addons:
+  ssh_known_hosts:
+    - 140.82.113.3
 env:
   global:
     -GH_REF: github.com/1017206511/yzq-blog.git
