@@ -12,7 +12,7 @@ cache:
 
 addons:
   ssh_known_hosts:
-    - 140.82.113.3
+    - 120.27.144.183
 env:
   global:
     -GH_REF: github.com/1017206511/yzq-blog.git
@@ -21,8 +21,8 @@ env:
 before_install:
   # 配置 ssh
   - cp .travis/ssh_config ~/.ssh/config
-  - cp .travis/id_rsa.pub ~/.ssh/id_rsa.pub
-  - cp .travis/id_rsa.pub /home/travis/.ssh/id_rsa.pub
+  - cp .travis/id_rsa.pub ~/.ssh/id_rsa
+  - cp .travis/id_rsa.pub /home/travis/.ssh/id_rsa
   # 配置 git 替换为自己的信息
   - git config --global user.name 'weizhuang'
   - git config --global user.email 1017206511@qq.com
