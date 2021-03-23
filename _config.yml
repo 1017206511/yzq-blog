@@ -105,4 +105,4 @@ deploy:
   type: git
   repo: git@github.com:1017206511/yzq-blog.git
   branch: blog
-  token: ${GH_TOKEN}
+  token: cf909f9bae7c73ae86780ea8654d48ab315f6bc1
