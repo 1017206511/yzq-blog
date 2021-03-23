@@ -1,3 +1,4 @@
+<meta name="referrer" content="no-referrer" />
 {% extends '_layout.swig' %}
 {% import '_macro/sidebar.swig' as sidebar_template with context %}
 
