@@ -1,6 +1,7 @@
   {##################}
   {### POST BLOCK ###}
   {##################}
+  <meta name="referrer" content="no-referrer" />
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="{{ post.lang or config.language }}">
     <link itemprop="mainEntityOfPage" href="{{ post.permalink }}">
 

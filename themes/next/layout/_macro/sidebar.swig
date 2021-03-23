@@ -1,4 +1,5 @@
 {% macro render(display_toc) %}
+  <meta name="referrer" content="no-referrer" />
   <div class="toggle sidebar-toggle">
     <span class="toggle-line toggle-line-first"></span>
     <span class="toggle-line toggle-line-middle"></span>

@@ -11,6 +11,7 @@
     </div>
   {%- endif %}
 
+  <meta name="referrer" content="no-referrer" />
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
 
