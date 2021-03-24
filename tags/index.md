@@ -1,2 +1,4 @@
+---
 type: "tags"
 layout: "tags"
+---
