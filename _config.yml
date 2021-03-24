@@ -69,7 +69,17 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+    java基础: java
+    spring: spring
+    springboot: springboot
+    springcloud: springcloud
+    其他: other
 tag_map:
+    java基础: java
+    spring: spring
+    springboot: springboot
+    springcloud: springcloud
+    其他: other
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
