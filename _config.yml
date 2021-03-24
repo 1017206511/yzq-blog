@@ -69,13 +69,13 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-    java基础: java
-    spring: spring
-    springboot: springboot
-    springcloud: springcloud
-    其他: other
+    技术: 技术
+    生活: 生活
+    爱好: 爱好
 tag_map:
     java基础: java
+    多线程: 多线程
+    集合: 集合
     spring: spring
     springboot: springboot
     springcloud: springcloud
