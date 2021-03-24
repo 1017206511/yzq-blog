@@ -8,7 +8,7 @@
   "scripts": {
     "clean": "hexo clean",
     "clean:yuque": "yuque-hexo clean",
-    "deploy": "npm run sync && hexo new page \"tags\" && hexo new page \"categories\" && hexo clean && hexo g -d",
+    "deploy": "npm run sync && hexo clean && hexo g -d",
     "publish": "npm run clean && npm run deploy",
     "dev": "hexo s",
     "sync": "yuque-hexo sync",
