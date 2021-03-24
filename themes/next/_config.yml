@@ -610,7 +610,7 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: true
+  enable: false
   appid: # Your leancloud application appid
   appkey: # Your leancloud application appkey
   notify: false # Mail notifier
@@ -619,7 +619,7 @@ valine:
   avatar: mm # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
-  language: zh-CN
+  language: # Language, available values: en, zh-cn
   visitor: true # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: false # Whether to record the commenter IP
